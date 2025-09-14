@@ -1,0 +1,107 @@
+{
+  "HOME": {
+    "TITLE": "Hello, I am Abdallah",
+    "DESCRIPTION": "I'm studying software engineering and have a particular interest in software development. Through initiative and practical projects, I was able to acquire in-depth knowledge within a short period of time. I now independently develop complete web applications and always welcome new challenges that allow me to continue learning. I'm open to new technologies and have gained valuable practical experience in both individual and team projects."
+  },
+  "NAV": {
+    "START": "Home",
+    "ABOUT": "About",
+    "SKILLS": "Skills",
+    "PROJECTS": "Projects",
+    "CONTACT": "Contact"
+  },
+  "SKILLS": {
+    "TITLE": "Skills",
+    "LANGUAGES": "Programming Languages",
+    "FRAMEWORKS": "Frameworks",
+    "TOOLS": "DevOps & Tools",
+    "LIST": {
+      "JAVA": "Java",
+      "KOTLIN": "Kotlin",
+      "PYTHON": "Python",
+      "TYPESCRIPT": "TypeScript",
+      "SPRING": "Spring Boot",
+      "ANGULAR": "Angular",
+      "TAILWIND": "Tailwind CSS",
+      "SQL": "SQL",
+      "DOCKER": "Docker",
+      "GIT": "Git",
+      "INTELLIJ": "IntelliJ IDEA",
+      "VSCODE": "VS Code",
+      "CICD": "CI/CD",
+      "POSTMAN": "Postman",
+      "PYCHARM": "PyCharm"
+    }
+
+  },
+  "FOOTER": {
+    "TITLE": "Contact",
+    "TEXT": "I'm happy to answer your inquiries – feel free to call me or send me an email. I will get back to you as soon as possible.",
+    "EMAIL": "Email",
+    "PHONE": "Tel"
+  },
+  "PROJECTS": {
+    "TITLE": "Projects",
+    "LIST": {
+      "1": "Quick Ride",
+      "2": "Intelligent Traffic Monitoring",
+      "3": "Task Assigner"
+    },
+    "DETAILS": {
+      "TYPE_LABEL": "Project-Type",
+      "DATE_LABEL": "Date",
+      "REPOSITORY_LABEL": "Repository",
+      "PRIVATE": "Private",
+      "PERSONAL_CONTRIBUTION": "Personal Contribution",
+      "BACK": "Back",
+      "NEXT": "Next",
+      "1": {
+        "TYPE": "Web Application",
+        "FORM": "SEP Group Project",
+        "ORIGIN": "University of Duisburg-Essen",
+        "DATE": "July 2025",
+        "DESCRIPTION": "A ride-sharing app where customers create ride requests and receive ride offers from drivers. The app handles route planning and provides a map-based visualization for setting up rides, displaying the planned route, and tracking the ride as it moves from the starting point to the destination.",
+        "TASKS": {
+          "1": "Implementation of authentication and authorization using JWT tokens with additional security measures",
+          "2": "Backend development with Spring Boot and REST APIs for ride requests and offers, including Bean Validation",
+          "3": "Real-time communication and live updates between customers and drivers using WebSockets (STOMP)",
+          "4": "Calculation and display of driver statistics (daily and monthly) for performance analysis using SQL queries"
+        }
+      },
+      "2": {
+        "TYPE": "Computer Vision Project",
+        "FORM": "Bachelor Project",
+        "ORIGIN": "University of Duisburg-Essen",
+        "DATE": "July 2025",
+        "DESCRIPTION": "An intelligent, video-based system for analyzing and monitoring road traffic, detecting congestion, and accurately identifying lanes and lane changes. Lane detection is performed using edge detection and Hough lines and is robust against poor image quality through super-resolution. Line filtering and clustering ensure reliable detection even in complex road layouts.",
+        "TASKS": {
+          "1": "Lane detection using edge detection and Hough lines",
+          "2": "Line filtering and clustering for reliable lane recognition",
+          "3": "Integration of super-resolution with lane detection",
+          "4": "Lane change detection based on vehicle positions"
+        }
+      },
+      "3": {
+        "TYPE": "Web Application",
+        "FORM": "Personal Project",
+        "ORIGIN": "Personal Project",
+        "DATE": "March 2025",
+        "DESCRIPTION": "Task Assigner is a web-based application for managing personal and team tasks. It supports personal task tracking and team management, including task assignment, role-based access control, and persistent storage in a MySQL database. The responsive frontend with Tailwind CSS provides an intuitive interface for switching between modes, teams, and task overview.",
+        "TASKS": {}
+      }
+    }
+  },
+  "TECHNOLOGIES": {
+    "SPRING_BOOT": "Spring Boot",
+    "ANGULAR": "Angular",
+    "H2_DATABASE": "H2-Database",
+    "DOCKER": "Docker",
+    "STOMP": "STOMP",
+    "TAILWIND": "Tailwind CSS",
+    "MYSQL": "MySQL"
+  },
+  "COPYRIGHT": "© 2025 Abdallah Abouelmagd. All rights reserved."
+
+
+
+}

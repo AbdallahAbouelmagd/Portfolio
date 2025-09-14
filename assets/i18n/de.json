@@ -1,0 +1,105 @@
+{
+  "HOME": {
+    "TITLE": "Hallo, ich bin Abdallah",
+    "DESCRIPTION": "Ich studiere Software Engineering und habe besonderes Interesse an der Softwareentwicklung. Durch Eigeninitiative und praktische Projekte konnte ich mir innerhalb kurzer Zeit fundiertes Wissen aneignen. Inzwischen entwickle ich selbstständig vollständige Webanwendungen und freue mich immer über neue Herausforderungen, bei denen ich weiterlernen kann. Ich bin offen für neue Technologien und habe sowohl in Einzel- als auch in Teamprojekten wertvolle praktische Erfahrungen gesammelt."
+  },
+  "NAV": {
+    "START": "Startseite",
+    "ABOUT": "Über mich",
+    "SKILLS": "Kenntnisse",
+    "PROJECTS": "Projekte",
+    "CONTACT": "Kontakt"
+  },
+  "SKILLS": {
+    "TITLE": "Kenntnisse",
+    "LANGUAGES": "Programmiersprachen",
+    "FRAMEWORKS": "Frameworks",
+    "TOOLS": "DevOps & Tools",
+    "LIST": {
+      "JAVA": "Java",
+      "KOTLIN": "Kotlin",
+      "PYTHON": "Python",
+      "TYPESCRIPT": "TypeScript",
+      "SPRING": "Spring-Boot",
+      "ANGULAR": "Angular",
+      "TAILWIND": "Tailwind CSS",
+      "SQL": "SQL",
+      "DOCKER": "Docker",
+      "GIT": "Git",
+      "INTELLIJ": "IntelliJ IDEA",
+      "VSCODE": "VS Code",
+      "CICD": "CI/CD",
+      "POSTMAN": "Postman",
+      "PYCHARM": "PyCharm"
+    }
+  },
+  "FOOTER": {
+    "TITLE": "Kontakt",
+    "TEXT": "Ich freue mich über Ihre Anfragen – schreiben Sie mir gerne eine E-Mail oder rufen Sie mich an. Ich melde mich so schnell wie möglich zurück.",
+    "EMAIL": "Email",
+    "PHONE": "Tel"
+  },
+  "PROJECTS": {
+    "TITLE": "Projekte",
+    "LIST": {
+      "1": "Quick-Ride",
+      "2": "Intelligente Verkehrsüberwachung",
+      "3": "Task-Assigner"
+    },
+    "DETAILS": {
+      "TYPE_LABEL": "Projekt-Typ",
+      "DATE_LABEL": "Datum",
+      "REPOSITORY_LABEL": "Repository",
+      "PRIVATE": "Privat",
+      "PERSONAL_CONTRIBUTION": "Persönlicher Beitrag",
+      "BACK": "Zurück",
+      "NEXT": "Weiter",
+      "1": {
+        "TYPE": "Web Anwendung",
+        "FORM": "SEP-Gruppenprojekt",
+        "ORIGIN": "Universität Duisburg-Essen",
+        "DATE": "Juli 2025",
+        "DESCRIPTION": "Eine Mitfahr-App, bei der Kunden Fahrtanfragen erstellen und Fahrtangebote von Fahrern erhalten. Die App übernimmt die Routenplanung und bietet eine kartenbasierte Visualisierung zur Einrichtung von Fahrten, zur Anzeige der geplanten Route und zur Verfolgung der Fahrt, während sie sich vom Startpunkt zum Ziel bewegt.",
+        "TASKS": {
+          "1": "Implementierung der Authentifizierung und Autorisierung mit JWT-Tokens sowie zusätzlicher Sicherheitsmechanismen",
+          "2": "Backend-Entwicklung mit Spring Boot und REST-APIs für Fahranfragen und Fahrtangebote, inklusive Bean Validation",
+          "3": "Echtzeit-Kommunikation und Live-Updates zwischen Kunden und Fahrern über WebSockets (STOMP)",
+          "4": "Berechnung und Anzeige von Fahrerstatistiken (täglich und monatlich) zur Performance-Analyse mittels SQL-Abfragen"
+        }
+      },
+      "2": {
+        "TYPE": "Computer Vision Projekt",
+        "FORM": "Bachelor Projekt",
+        "ORIGIN": "Universität Duisburg-Essen",
+        "DATE": "Juli 2025",
+        "DESCRIPTION": "Ein intelligentes, videobasiertes System zur Analyse und Überwachung des Straßenverkehrs, das Staulagen erkennt und Fahrspuren sowie Spurwechsel präzise identifiziert. Fahrspurerkennung erfolgt mittels Kantenerkennung und Hough-Linien und ist durch den Einsatz von Super-Resolution robust gegenüber schlechter Bildqualität. Zusätzlich sorgen Linienfilterung und Clustering für eine zuverlässige Erkennung selbst in komplexen Straßenlayouts.",
+        "TASKS": {
+          "1": "Fahrspurerkennung mittels Kantenerkennung und Hough-Linien",
+          "2": "Linienfilterung und Clustering zur zuverlässigen Spurerkennung",
+          "3": "Integration von Super-Resolution mit Fahrspurerkennung",
+          "4": "Spurwechselerkennung basierend auf Fahrzeugpositionen"
+        }
+      },
+      "3": {
+        "TYPE": "Web Anwendung",
+        "FORM": "Eigenes Projekt",
+        "ORIGIN": "Eigenes Projekt",
+        "DATE": "März 2025",
+        "DESCRIPTION": "Task-Assigner ist eine webbasierte Anwendung zur Verwaltung persönlicher Aufgaben und von Teams. Sie unterstützt Personal Task Tracking und Team Management, inklusive Aufgabenverteilung, rollenbasierter Zugriffskontrolle und persistenter Speicherung in einer MySQL-Datenbank. Das responsive Frontend mit Tailwind CSS bietet eine intuitive Oberfläche zum Wechseln zwischen Modi, Teams und Aufgabenübersicht.",
+        "TASKS": {}
+      }
+    }
+  },
+  "TECHNOLOGIES": {
+    "SPRING_BOOT": "Spring Boot",
+    "ANGULAR": "Angular",
+    "H2_DATABASE": "H2-Datenbank",
+    "DOCKER": "Docker",
+    "STOMP": "STOMP",
+    "TAILWIND": "Tailwind CSS",
+    "MYSQL": "MySQL"
+  },
+  "COPYRIGHT": "© 2025 Abdallah Abouelmagd. Alle Rechte vorbehalten."
+
+
+}
