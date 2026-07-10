@@ -1,7 +1,7 @@
 {
   "HOME": {
     "TITLE": "Hello, I am Abdallah",
-    "DESCRIPTION": "I'm studying software engineering and have a particular interest in software development. Through initiative and practical projects, I was able to acquire in-depth knowledge within a short period of time. I now independently develop complete web applications and always welcome new challenges that allow me to continue learning. I'm open to new technologies and have gained valuable practical experience in both individual and team projects."
+    "DESCRIPTION": "I studied Software Engineering at the University of Duisburg-Essen and have a particular interest in software development. Through initiative and practical projects, I was able to acquire in-depth knowledge within a short period of time. I now independently develop complete web applications and always welcome new challenges that allow me to continue learning. I'm open to new technologies and have gained valuable practical experience in both individual and team projects."
   },
   "NAV": {
     "START": "Home",
@@ -45,7 +45,8 @@
     "LIST": {
       "1": "Quick Ride",
       "2": "Intelligent Traffic Monitoring",
-      "3": "Task Assigner"
+      "3": "Task Assigner",
+      "4": "VROOM"
     },
     "DETAILS": {
       "TYPE_LABEL": "Project-Type",
@@ -88,6 +89,20 @@
         "DATE": "March 2025",
         "DESCRIPTION": "Task Assigner is a web-based application for managing personal and team tasks. It supports personal task tracking and team management, including task assignment, role-based access control, and persistent storage in a MySQL database. The responsive frontend with Tailwind CSS provides an intuitive interface for switching between modes, teams, and task overview.",
         "TASKS": {}
+      },
+      "4": {
+        "TYPE": "Computer Vision Project",
+        "FORM": "Bachelor thesis",
+        "ORIGIN": "University of Duisburg-Essen",
+        "DATE": "July 2026",
+        "DESCRIPTION": "An intelligent, video-based traffic monitoring system for estimating traffic flow and congestion levels on highways under varying lighting conditions. The system automatically adapts to different camera scenes and traffic patterns without requiring manual calibration, while relying on lightweight computer vision techniques suitable for resource-constrained environments.",
+
+        "TASKS": {
+          "1": "Traffic density estimation using background subtraction and contour analysis",
+          "2": "Automatic day and night scene classification based on illumination characteristics",
+          "3": "Unsupervised scene adaptation using Gaussian Mixture Models (GMMs)",
+          "4": "Learning road-specific traffic baselines for relative congestion estimation"
+        }
       }
     }
   },

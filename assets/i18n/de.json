@@ -1,7 +1,7 @@
 {
   "HOME": {
     "TITLE": "Hallo, ich bin Abdallah",
-    "DESCRIPTION": "Ich studiere Software Engineering und habe besonderes Interesse an der Softwareentwicklung. Durch Eigeninitiative und praktische Projekte konnte ich mir innerhalb kurzer Zeit fundiertes Wissen aneignen. Inzwischen entwickle ich selbstständig vollständige Webanwendungen und freue mich immer über neue Herausforderungen, bei denen ich weiterlernen kann. Ich bin offen für neue Technologien und habe sowohl in Einzel- als auch in Teamprojekten wertvolle praktische Erfahrungen gesammelt."
+    "DESCRIPTION": "Ich habe Software Engineering an der Universität Duisburg-Essen studiert und habe besonderes Interesse an der Softwareentwicklung. Durch Eigeninitiative und praktische Projekte konnte ich mir innerhalb kurzer Zeit fundiertes Wissen aneignen. Inzwischen entwickle ich selbstständig vollständige Webanwendungen und freue mich immer über neue Herausforderungen, bei denen ich weiterlernen kann. Ich bin offen für neue Technologien und habe sowohl in Einzel- als auch in Teamprojekten wertvolle praktische Erfahrungen gesammelt."
   },
   "NAV": {
     "START": "Startseite",
@@ -44,7 +44,8 @@
     "LIST": {
       "1": "Quick-Ride",
       "2": "Intelligente Verkehrsüberwachung",
-      "3": "Task-Assigner"
+      "3": "Task-Assigner",
+      "4": "VROOM"
     },
     "DETAILS": {
       "TYPE_LABEL": "Projekt-Typ",
@@ -73,6 +74,7 @@
         "ORIGIN": "Universität Duisburg-Essen",
         "DATE": "Juli 2025",
         "DESCRIPTION": "Ein intelligentes, videobasiertes System zur Analyse und Überwachung des Straßenverkehrs, das Staulagen erkennt und Fahrspuren sowie Spurwechsel präzise identifiziert. Fahrspurerkennung erfolgt mittels Kantenerkennung und Hough-Linien und ist durch den Einsatz von Super-Resolution robust gegenüber schlechter Bildqualität. Zusätzlich sorgen Linienfilterung und Clustering für eine zuverlässige Erkennung selbst in komplexen Straßenlayouts.",
+
         "TASKS": {
           "1": "Fahrspurerkennung mittels Kantenerkennung und Hough-Linien",
           "2": "Linienfilterung und Clustering zur zuverlässigen Spurerkennung",
@@ -87,6 +89,15 @@
         "DATE": "März 2025",
         "DESCRIPTION": "Task-Assigner ist eine webbasierte Anwendung zur Verwaltung persönlicher Aufgaben und von Teams. Sie unterstützt Personal Task Tracking und Team Management, inklusive Aufgabenverteilung, rollenbasierter Zugriffskontrolle und persistenter Speicherung in einer MySQL-Datenbank. Das responsive Frontend mit Tailwind CSS bietet eine intuitive Oberfläche zum Wechseln zwischen Modi, Teams und Aufgabenübersicht.",
         "TASKS": {}
+      },
+      "4": {
+        "TYPE": "Computer Vision Projekt",
+        "FORM": "Bachelorarbeit",
+        "ORIGIN": "Universität Duisburg-Essen",
+        "DATE": "Juli 2026",
+        "DESCRIPTION": "Ein intelligentes, videobasiertes Verkehrsüberwachungssystem zur Schätzung von Verkehrsfluss und Stauaufkommen auf Autobahnen unter unterschiedlichen Lichtverhältnissen. Das System passt sich automatisch an verschiedene Kameraszenen und Verkehrsmuster an, ohne dass eine manuelle Kalibrierung erforderlich ist.",
+        "TASKS": {}
+
       }
     }
   },
