@@ -74,7 +74,7 @@
         "FORM": "Bachelor Project",
         "ORIGIN": "University of Duisburg-Essen",
         "DATE": "July 2025",
-        "DESCRIPTION": "An intelligent, video-based system for analyzing and monitoring road traffic, detecting congestion, and accurately identifying lanes and lane changes. Lane detection is performed using edge detection and Hough lines and is robust against poor image quality through super-resolution. Line filtering and clustering ensure reliable detection even in complex road layouts.",
+        "DESCRIPTION": "An intelligent, video-based system for analyzing road traffic, and accurately identifying lanes and lane changes. Lane detection is performed using edge detection and Hough lines and is robust against poor image quality through super-resolution. Line filtering and clustering ensure reliable detection even in complex road layouts.",
         "TASKS": {
           "1": "Lane detection using edge detection and Hough lines",
           "2": "Line filtering and clustering for reliable lane recognition",
@@ -95,7 +95,7 @@
         "FORM": "Bachelor thesis",
         "ORIGIN": "University of Duisburg-Essen",
         "DATE": "July 2026",
-        "DESCRIPTION": "An intelligent, video-based traffic monitoring system for estimating traffic flow and congestion levels on highways under varying lighting conditions. The system automatically adapts to different camera scenes and traffic patterns without requiring manual calibration, while relying on lightweight computer vision techniques suitable for resource-constrained environments.",
+        "DESCRIPTION": "An intelligent, video-based traffic monitoring system for estimating traffic flow and congestion levels on highways under varying lighting conditions. The system automatically adapts to different camera scenes and traffic patterns without requiring manual calibration or supervision, while relying on background subtraction and other lightweight computer vision techniques suitable for resource-constrained environments.",
 
         "TASKS": {
           "1": "Traffic density estimation using background subtraction and contour analysis",
